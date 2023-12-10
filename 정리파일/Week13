@@ -10,3 +10,9 @@ $ git reset --soft HEAD~2
 **이전에 수행한 reset을 바로 취소하는 명령**
 $ git reset --hard ORIG_HEAD
 
+**취소 revert 전체 조건**
+Nothing to commit, working tree clean
+
+**HEAD를 취소해 HEAD~ 상태로 가는 커밋을 생성**
+$ git revert HEAD
+$ git revert HEAD --no-edit
