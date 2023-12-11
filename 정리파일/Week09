@@ -1,5 +1,5 @@
 **깃허브에 원격 저장소를 생성**
-저장소이름 git-clone
+저장소이름 git-clone 
 
 **원격 저장소 복제**
 $ git clone https://github.com/atom/atom.git
